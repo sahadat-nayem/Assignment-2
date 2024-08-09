@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
-@font-face {
-    font-family: myFont;
-    src: url(bad.ttf);
-}
 
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -30,6 +26,10 @@
 }
 
 /* Navbar Related Style */
+.nav-menu{
+    position: relative;
+    bottom: 100px;
+}
 .navbar{
     justify-content: space-around;
     align-items: center;
@@ -106,7 +106,10 @@
 
 
 .playwrite-hr-font {
-    font-family: myFont;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
 
   /* stay health style */
@@ -218,6 +221,14 @@
     padding: ;
 }
 /* calculator style */
+.caret-down{
+    position: relative;
+    left: 150px;
+}
+.caret-down-2{
+    position: relative;
+    left: 385px;
+}
 .calculator{
     background-color: #ffffff20;
     display: flex;
@@ -357,12 +368,18 @@
 
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
+    .nav-menu{
+        color: #FFFFFF;
+        position: relative;
+        right: -35px;
+        top:0px;
+    }
     .nav-links{
         display:none;
     }
     .Fitness{
         position: relative;
-        left: -100px;
+        left: -30px;
     }
     .health-section-title{
         font-size: 2rem;
@@ -419,5 +436,13 @@
     }
     .stay-health img{
 
+    }
+    .caret-down{
+        position: relative;
+        left: 100px;
+    }
+    .caret-down-2{
+        position: relative;
+        left: 170px;
     }
 }
