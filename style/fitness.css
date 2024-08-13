@@ -337,7 +337,11 @@
     bottom: 40px;
     right: 110px;
 }
-/* Form section */
+/* Extra section */
+.extra-section-form{
+    position: relative;
+    left: 300px;
+}
 .form-container{
     width: 1000px;
     margin: auto;
@@ -352,6 +356,9 @@
     left: 500px;
     background-color: #E6533C;
     color: white;
+}
+.from-btn{
+    
 }
 
 /* Footer section */
@@ -464,6 +471,18 @@
     .trainer-div-5{
         position: relative;
         bottom: 580px;
+    }
+    .from-title{
+        position: relative;
+        top: -35px;
+    }
+    .extra-section-form{
+        position: relative;
+        left: 0px;
+    }
+    .from-btn{
+        position: relative;
+        left: 10px;
     }
     .bmi-container, 
     .habits-container,
